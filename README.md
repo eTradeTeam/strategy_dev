@@ -3,15 +3,15 @@
 
 **Strategy Types:**
 
-- [Trend Following](types/trend_following_strategies.md)
-- [Momentum Trading](types/momentum_strategies.md)
-- [Mean Reversion](types/mean_reversion_strategies.md)
-- [Breakout Strategies](types/breakout_strategies.md)
-- [Relative Value Trading](types/relative_value_strategies.md)
-- [Statistical Arbitrage](types/statistical_arbitrage_strategies.md)
-- [Volatility Breakout Strategies](types/volatility_breakout_strategies.md)
-- [Event-Driven Strategies](types/event_driven_strategies.md)
-- [Pattern Recognition Strategies](types/pattern_recognition_strategies.md)
+- [Trend Following]( strategy/trend_following_strategies.md)
+- [Momentum Trading]( strategy/momentum_strategies.md)
+- [Mean Reversion]( strategy/mean_reversion_strategies.md)
+- [Breakout Strategies]( strategy/breakout_strategies.md)
+- [Relative Value Trading]( strategy/relative_value_strategies.md)
+- [Statistical Arbitrage]( strategy/statistical_arbitrage_strategies.md)
+- [Volatility Breakout Strategies]( strategy/volatility_breakout_strategies.md)
+- [Event-Driven Strategies]( strategy/event_driven_strategies.md)
+- [Pattern Recognition Strategies]( strategy/pattern_recognition_strategies.md)
 
 ## Strategy Type Summary
 
@@ -81,42 +81,48 @@ While some of these strategies share certain characteristics (e.g., trend follow
 - https://www.quantifiedstrategies.com/mean-reversion-vs-trend-following/
 
 
+## Other
 
+1. **Scalping:**
 
+   - **Description:** Scalping involves making rapid, small trades to profit from tiny price fluctuations. Scalpers aim for quick gains and often execute dozens or even hundreds of trades per day.
+   - **Approach:** Scalpers focus on short timeframes (seconds to minutes) and rely on technical analysis, order flow, and level II data.
+   - **Key Points:**
+     - High Frequency: Scalping is ultra-short-term trading.
+     - Tight Spreads: Scalpers target liquid markets with narrow bid-ask spreads.
+     - Risk Management: Stop-loss orders are crucial due to frequent trades.
 
+2. **Arbitrage:**
 
-Scalping:
-Description: Scalping involves making rapid, small trades to profit from tiny price fluctuations. Scalpers aim for quick gains and often execute dozens or even hundreds of trades per day.
-Approach: Scalpers focus on short timeframes (seconds to minutes) and rely on technical analysis, order flow, and level II data.
-Key Points:
-High Frequency: Scalping is ultra-short-term trading.
-Tight Spreads: Scalpers target liquid markets with narrow bid-ask spreads.
-Risk Management: Stop-loss orders are crucial due to frequent trades.
-Arbitrage:
-Description: Arbitrage seeks to profit from price discrepancies between related assets or markets. Traders simultaneously buy and sell to capture risk-free profits.
-Approach: Examples include statistical arbitrage (based on quantitative models) and merger arbitrage (exploiting price gaps during acquisitions).
-Key Points:
-Speed Matters: Arbitrage opportunities vanish quickly.
-Risk-Free: True arbitrage involves no risk.
-Market Efficiency: Arbitrage keeps markets efficient.
-Quantitative Strategies:
-Description: Quantitative trading relies on mathematical models and algorithms. Traders use historical data to develop systematic strategies.
-Approach: Quantitative analysts (quants) build models for portfolio optimization, risk management, and execution.
-Key Points:
-Data-Driven: Quant strategies are data-intensive.
-Backtesting: Rigorous testing of models is essential.
-High-Frequency Quants: Some quants operate in high-frequency trading.
-Options Strategies:
-Description: Options provide flexibility beyond simple buying or selling. Traders use options for hedging, speculation, or income generation.
-Approach: Examples include covered calls, straddles, iron condors, and butterfly spreads.
-Key Points:
-Risk Profiles: Options strategies have defined risk-reward profiles.
-Volatility Impact: Options prices are influenced by implied volatility.
-Complexity: Some options strategies require advanced knowledge.
-Algorithmic Trading:
-Description: Algorithmic (algo) trading involves automated execution based on predefined rules. Algos can handle large volumes efficiently.
-Approach: Traders write code to execute trades, manage risk, and optimize execution.
-Key Points:
-Low Latency: Algos operate at lightning speed.
-Market Making: Some algos provide liquidity by acting as market makers.
-Smart Order Routing: Algos split orders across exchanges.
+   - **Description:** Arbitrage seeks to profit from price discrepancies between related assets or markets. Traders simultaneously buy and sell to capture risk-free profits.
+   - **Approach:** Examples include statistical arbitrage (based on quantitative models) and merger arbitrage (exploiting price gaps during acquisitions).
+   - **Key Points:**
+     - Speed Matters: Arbitrage opportunities vanish quickly.
+     - Risk-Free: True arbitrage involves no risk.
+     - Market Efficiency: Arbitrage keeps markets efficient.
+
+3. **Quantitative Strategies:**
+
+   - **Description:** Quantitative trading relies on mathematical models and algorithms. Traders use historical data to develop systematic strategies.
+   - **Approach:** Quantitative analysts (quants) build models for portfolio optimization, risk management, and execution.
+   - **Key Points:**
+     - Data-Driven: Quant strategies are data-intensive.
+     - Backtesting: Rigorous testing of models is essential.
+     - High-Frequency Quants: Some quants operate in high-frequency trading.
+
+4. **Options Strategies:**
+
+   - **Description:** Options provide flexibility beyond simple buying or selling. Traders use options for hedging, speculation, or income generation.
+   - **Approach:** Examples include covered calls, straddles, iron condors, and butterfly spreads.
+   - **Key Points:**
+     - Risk Profiles: Options strategies have defined risk-reward profiles.
+     - Volatility Impact: Options prices are influenced by implied volatility.
+     - Complexity: Some options strategies require advanced knowledge.
+
+5. **Algorithmic Trading:**
+   - **Description:** Algorithmic (algo) trading involves automated execution based on predefined rules. Algos can handle large volumes efficiently.
+   - **Approach:** Traders write code to execute trades, manage risk, and optimize execution.
+   - **Key Points:**
+     - Low Latency: Algos operate at lightning speed.
+     - Market Making: Some algos provide liquidity by acting as market makers.
+     - Smart Order Routing: Algos split orders across exchanges.
