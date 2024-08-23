@@ -1,5 +1,8 @@
 # strategy_dev
 
+## Strategy Resources
+
+ - [strategy Resources and code](docs/resources.md)
 
 **Strategy Types:**
 
