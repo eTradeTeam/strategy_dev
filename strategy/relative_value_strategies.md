@@ -1,5 +1,11 @@
+# Relative value Strategies
+
+
+- [Main README](../README.md)
+
 **Strategy Type TOC**
 
+- [Strategy Types Summary](strategy_types.md)
 - [Trend Following](trend_following_strategies.md)
 - [Momentum Trading](momentum_strategies.md)
 - [Mean Reversion](mean_reversion_strategies.md)
@@ -9,8 +15,6 @@
 - [Volatility Breakout Strategies](volatility_breakout_strategies.md)
 - [Event-Driven Strategies](event_driven_strategies.md)
 - [Pattern Recognition Strategies](pattern_recognition_strategies.md)
-
-# Mean Reversion Strategies
 
 ## Overview
 
