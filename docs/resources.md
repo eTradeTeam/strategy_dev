@@ -37,6 +37,9 @@
 - https://github.com/ATSHFT/NinjaTrader8-Strategies
 - https://github.com/houtian95/NinjaTrader-Indicator-Strategy-
 - https://github.com/houtian95/NinjaTrader-Auto-Strategy
+- https://github.com/twdsje/Ninjatrader-scripts
+- https://github.com/Sandy4321/NinjaTrader.Custom
+- 
 - 
 - 
 - 
